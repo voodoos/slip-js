@@ -1,3 +1,5 @@
+// @flow
+
 import IEngine from './modules/engine'
 import IController from './modules/controller.mjs'
 import ISlip from './modules/slip'
@@ -18,3 +20,6 @@ window.Engine = IEngine;
 window.Controller = IController;
 window.Slip = ISlip;
 window.Util = IUtil;
+
+
+let x = 2 + "3";

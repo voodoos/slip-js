@@ -1,6 +1,9 @@
+// @flow
+
 import { myQueryAll } from './util'
 
-export default function (root) {
+export default class {
+	constructor (root) {
     function prepareRoot (rootElem) {
 	let container = document.createElement("div");
 	container.innerHTML = 

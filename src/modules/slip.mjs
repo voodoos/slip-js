@@ -1,6 +1,8 @@
+// @flow
+import Engine from './engine'
 import { cloneNoSubslip, myQueryAll, replaceSubslips } from './util'
 
-export default function (name, fullName, actionL, ng, options) {
+export default function (name : string, fullName : string, actionL : Array<string>, ng : Engine, options : any) {
     let engine = ng;
     this.fullName = fullName;
     this.name = name;
